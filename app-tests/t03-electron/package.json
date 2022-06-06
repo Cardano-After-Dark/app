@@ -1,0 +1,20 @@
+{
+  "name": "t03-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run server\" \"npm run electron\" \"npm run electron\" ",
+    "server": "node server.js",
+    "electron": "electron main.js"
+  },
+  "author": "psuzzi",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.2.1",
+    "electron": "^19.0.3",
+    "express": "^4.18.1",
+    "socket.io": "^2.2.0"
+  }
+}
