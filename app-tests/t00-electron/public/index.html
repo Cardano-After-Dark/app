@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    We are using Node.js <span id="node-version"></span>,
+    Chromium <span id="chrome-version"></span>,
+    and Electron <span id="electron-version"></span>.
+
+    <form>
+      <input id="text1" type="text">
+      <input id="button1" type="button">Connect</input>
+      <textarea name="textarea" id="textarea1" cols="30" rows="10">BLA BLA</textarea>
+      <input id="button2" type="button">Send</input>
+    </form>
+  </body>
+</html>
